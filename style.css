@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url("MEDIA/bg.jpg");
+	background-size: cover;
+	overflow: hidden;
+}
+.taskBar {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	z-index: 110;
+	display: flex;
+}
+.taskBar img {
+	width: 100%;
+}
+
+.startMenu {
+	position: absolute;
+	bottom: -560px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	transition: all 0.3s ease-in;
+}
+
+.startMenu img {
+	width: 500px;
+	border-radius: 10px;
+}
